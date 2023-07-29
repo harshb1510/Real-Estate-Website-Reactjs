@@ -8,3 +8,9 @@ gap: 1rem;
     width: 9rem;
     
 }
+@media(max-width:640px){
+    .c-container{
+            width: 20rem;
+            margin: auto;
+    }
+}

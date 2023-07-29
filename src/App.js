@@ -16,13 +16,13 @@ function App() {
    <Header/>
    <Hero/>
    </div>
-   <Companies/>
+<Companies/>
    <Residencies/>
     <div className="white-gradient2"/>
    <Value/>
    <Contact/>
    <Getstarted/>
-   <Footer/>
+   <Footer/> 
    </div>
   
   );

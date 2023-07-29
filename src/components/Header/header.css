@@ -1,0 +1,22 @@
+.header-img{
+    /* mix-blend-mode:color-dodge; */
+    width: 140px;
+    margin-right: 100px;
+}
+.h-wrapper{
+    /* background:linear-gradient(to right,rgb(86, 79, 79),black); */
+    /* background-color: black; */
+    color: white;
+}
+.h-container{
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+}
+.h-menu{
+    gap: 2rem;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+}

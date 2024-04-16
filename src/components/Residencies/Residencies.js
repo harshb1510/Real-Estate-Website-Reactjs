@@ -1,7 +1,7 @@
 import "./residencies.css";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
-import data from "/Users/harsh/Documents/real-estate/src/utils/Slider.json";
+import data from "../../utils/Slider.json";
 import { sliderSettings } from "../../utils/common";
 
 const Residencies = () => {
@@ -19,7 +19,6 @@ const Residencies = () => {
             <SwiperSlide key={i} >
               <div className="flexColStart r-card">
                 <img src={card.image} alt="home" className="r-cardImg" />
-
                 <span className="secodaryText r-price">
                   <span style={{ color: "orange" }}>$</span>
                   <span>{card.price}</span>
